@@ -1,0 +1,70 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #d4d4d4;
+  background-image: url(./axiom-pattern.png)
+}
+
+
+table {
+  border: 2px solid #1B1A17;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  color: #E45826;
+  padding: 20px 0;
+  text-align: center;
+}
+
+th,
+tr,
+td {
+  border: solid 1px #1B1A17;
+  color: #E45826;
+}
+
+
+.botaoNovoJogador, .botao {
+  padding: 10px;
+  margin: 30px;
+  background-color: #F0A500;
+  border-radius: 3px;
+  border: none;
+}
+
+#inputNomeJogador {
+  padding: 10px;
+  border: none;
+  background-color: rgb(241, 238, 238);
+  margin-left: 20px;
+  border-radius: 3px;
+
+}
+
+footer {
+  background-color: #aaa9a9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #E45826;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botoes {
+  width: 100%;
+  background-color: white;
+  border: none;
+  padding: 2px;
+}
