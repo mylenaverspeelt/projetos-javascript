@@ -1,0 +1,45 @@
+/* TAG SELECTORS */
+
+body {
+    background-color: #E02401;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #FFA400;
+    padding: 20px;
+    font-size: 40px;
+}
+
+footer {
+    font-size: 18px;
+    color: #FFA400;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #FFA400;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #51050F;
+    text-decoration: underline;
+}
+
+/* ID SELECTORS */
+
+#quadro {
+    background-color: white;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: #51050F 5px 5px;
+    margin: auto;
+    padding: 20px;
+}
+
+#paragrafo {
+    font-size: 18px;
+    color: #51050F;
+}
