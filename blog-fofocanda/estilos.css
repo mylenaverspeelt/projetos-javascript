@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+:root {
+    --linear: linear-gradient(90deg, #E93B81 0%, #F5ABC9 100%);
+
+}
+
+/* 
+PALETA DE CORES
+cinza: #313131;
+cinzaclaro: #B6B6B6;
+rosaescuro: #E93B81;
+rosaclaro: #F5ABC9 ;
+background: #F3F1F6;
+branco: #fff;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    text-align: center;
+    background-color: #F3F1F6;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* NAVBAR */
+
+nav {
+    background-image: var(--linear);
+    padding: 30px 40px;
+}
+
+.nav-textos {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.nav-textos h1:hover {
+    color: #F5ABC9 ;
+    cursor: pointer;
+}
+
+.caixatexto {
+    height: 40px;
+    display: flex;
+    background-color: #FAF3F3;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 100%;
+    color: #fff;
+    opacity: 0.4;
+}
+
+.caixatexto button {
+    border: none;
+    background: transparent;
+}
+
+.fa-search {
+    color: #313131;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.caixatexto input {
+    border-color: transparent;
+    font-size: 15px;
+    width: 100%;
+    background: transparent;
+    outline: none;
+}
+
+input::placeholder {
+    color: #313131;
+}
+
+/* POSTS */
+
+.container-posts {
+    border: 1px solid #fff;
+    margin: 20px 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px #B6B6B6;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container-posts h2 {
+    color: #313131;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.container-posts h2:hover {
+    text-decoration: underline;
+    color: #E93B81;
+    cursor: pointer;
+}
+
+.container-posts h3 {
+    color: #B6B6B6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container-posts h3:hover {
+    text-decoration: underline;
+}
+
+.fa-heart {
+    color: #B6B6B6;
+    padding-right: 5px;
+}
+
+.fa-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fas .fa-heart{
+    color: red;
+}
+
+.container-posts p {
+    color: #313131;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container-textos {
+    text-align: left;
+    padding: 10px;
+}
+
+@media (min-width:1000px) {
+    nav {
+        padding: 30px 200px;
+    }
+    .container-posts {
+        margin: 20px 200px;
+    }
+}
+
+/* FOOTER */
+footer{
+    margin-top: 50px;
+    padding: 15px 5px;
+    background-color: #F5ABC9;
+    color: #313131;
+}
+
+footer a{
+text-decoration: none;
+color: #313131;
+}
+
+footer a:hover{
+text-decoration: underline;
+color: #fff;    
+}
