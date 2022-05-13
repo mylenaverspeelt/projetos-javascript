@@ -5,42 +5,49 @@
     margin: 0;
 }
 
+:root{
+    --main-color: hsl(342, 79%, 41%);
+    --bg-color: hsl(284, 87%, 43%) ;
+    --trans1-color: hsla(342, 79%, 41%, 0.699);
+    --trans2-color: hsla(335, 79%, 41%, 0.699);
+    --card-bg-color: hsl(0, 65%, 81%);;
+    --white: hsl(0, 0%, 100%); 
+    --shadows: hsla(0, 2%, 12%, 0.459);
+    --hover-button: hsl(290, 82%, 73%); ;
+}
+
 body {
     text-align: center;
-    background-image: url(/bg.jpg);
-    background-size: cover;
     font-family: 'Nunito', sans-serif;
-    background-repeat: no-repeat;
-
-
-
+    background-color: var(--bg-color);
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
 }
 
 .navbar {
-    background: rgb(152, 14, 203);
-    background: linear-gradient(90deg, rgb(16, 11, 171) 31%, rgb(124, 150, 255) 82%);
-    color: #fff;
+    background: var(--bg-color);
+    background: linear-gradient(90deg, var(--trans1-color), var(--trans2-color));
+    color: var(--white);
     justify-content: center;
     font-family: 'Acme', sans-serif;
     font-size: 2.0rem;
-    box-shadow: 5px 5px rgba(37, 36, 36, 0.697);
+    box-shadow: 5px 5px var(--shadows);
+    text-shadow: 0 0 2px var(--shadows) ;
 
 }
 
-a {
-    color: #fff;
+.card a {
+    color: var(--white);
     font-family: 'Acme', sans-serif;
-    background-color: #B91646;
+    background-color: var(--main-color);
     padding: 10px 15px;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 2px 0 rgba(37, 36, 36, 0.697);
+    border-radius: 0.9rem;
+    box-shadow: 0 2px 2px 0 var(--shadows);
 }
 
-a:hover {
-    color: #890F0D;
-    background-color: #fff
+.card a:hover {
+    color: var(--main-color);
+    background-color: var(--hover-button);
 }
-
 
 
 .navbar p {
@@ -48,9 +55,10 @@ a:hover {
 }
 
 .card {
-    background-color: #FFD124;
-    box-shadow: 5px 5px rgba(37, 36, 36, 0.697);
+    background-color: var(--card-bg-color);
+    box-shadow: 5px 5px var(--shadows);
     margin-bottom: 20px;
+    border-radius: 0.7rem;
 }
 
 .card-title {
@@ -66,4 +74,25 @@ a:hover {
     flex-shrink: 4;
     flex-direction: row;
 
+
+}
+
+footer{
+    background: linear-gradient(90deg, var(--trans1-color), var(--trans2-color));
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer a:hover{
+    color: var(--white);
 }
