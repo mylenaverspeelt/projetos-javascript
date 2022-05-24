@@ -7,13 +7,13 @@
 
 :root{
     --main-color: hsl(342, 79%, 41%);
-    --bg-color: hsl(284, 87%, 43%) ;
-    --trans1-color: hsla(342, 79%, 41%, 0.699);
+    --bg-color: hsl(0, 71%, 78%);
+    --trans1-color: #F14668;
     --trans2-color: hsla(335, 79%, 41%, 0.699);
-    --card-bg-color: hsl(0, 65%, 81%);;
+    --card-bg-color: hsl(0, 78%, 91%);
     --white: hsl(0, 0%, 100%); 
-    --shadows: hsla(0, 2%, 12%, 0.459);
-    --hover-button: hsl(290, 82%, 73%); ;
+    --shadows: hsla(0, 2%, 12%, 0.137);
+    --hover-button: hsl(0, 100%, 97%);
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     background-color: var(--main-color);
     padding: 10px 15px;
     border-radius: 0.9rem;
-    box-shadow: 0 2px 2px 0 var(--shadows);
+    box-shadow: 2px  var(--shadows);
 }
 
 .card a:hover {

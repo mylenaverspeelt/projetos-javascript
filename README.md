@@ -4,7 +4,7 @@ All my vanilla JS projects at one place!
 
 To check the page just click on the link: https://mylenaverspeelt.github.io/projetos-javascript/
 
-<img src="./read-me img.png"/>
+<img src="./read-me-image.png"/>
 
 <h3 align="left">Tech Stacks & Tools</h3>
     <div align="left">
